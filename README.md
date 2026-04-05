@@ -250,8 +250,8 @@ This project was built as a **Final Year B.Tech Project**.
 
 | Name | GitHub | Role |
 |---|---|---|
-| **[Your Name]** | [@yourusername](https://github.com/yourusername) | Full Stack / AI Integration |
-| **[Teammate Name]** | [@teammatename](https://github.com/teammatename) | Full Stack / UI/UX |
+| **Aman Sharma** | [@23Amansharma](https://github.com/23Amansharma) | Full Stack / AI Integration |
+| **Alok Gupta** | [@mrinvictus2005 ](https://github.com/mrinvictus2005) | Full Stack / Data Analyst |
 
 > Both authors contributed equally to the research, design, development, and documentation of this project.
 
@@ -265,14 +265,13 @@ You are free to use, modify, and distribute this project with proper attribution
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [Google Gemini AI](https://ai.google.dev/) — for the AI question generation and evaluation backbone
 - [Clerk](https://clerk.dev/) — for frictionless authentication
 - [Neon](https://neon.tech/) — for serverless PostgreSQL
 - [Drizzle ORM](https://drizzle.team/) — for the clean, type-safe database layer
 - [Vercel](https://vercel.com/) — for deployment
-- Our project guide and college faculty for their support and feedback
 
 ---
 
