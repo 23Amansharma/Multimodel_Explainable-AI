@@ -1,4 +1,4 @@
-# Contributing to Intivolution AI
+# Contributing to Mulitmodel_Explainable-AI (Intivolution AI)
 
 Thank you for your interest in contributing! This project was built as a Final Year Project and is now open to community contributions.
 
@@ -23,7 +23,8 @@ Open an issue with the `enhancement` label and describe:
 1. **Fork** the repository
 2. **Clone** your fork:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/intivolution-ai.git
+   git clone https://github.com/23Amansharma/Multimodel_Explainable-AI.git
+   cd Multimodel_Explainable-AI
    ```
 3. **Create a branch**:
    ```bash
