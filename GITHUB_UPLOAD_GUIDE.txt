@@ -1,0 +1,128 @@
+# 📋 GitHub Upload Guide — Intivolution AI
+# Kya Upload Karna Hai, Kya Nahi — Puri Guide
+
+=============================================================
+✅ YEH FILES ZAROOR UPLOAD KARO (Safe & Important)
+=============================================================
+
+PROJECT CODE:
+  ✅ app/                    → Saari pages aur API routes
+  ✅ components/             → Reusable UI components
+  ✅ lib/                    → Server-side utilities
+  ✅ utils/                  → Helper functions, Gemini wrapper, analytics
+  ✅ drizzle/                → DB migration SQL files
+  ✅ public/                 → Logo, images (webcam.png, logo.svg)
+
+CONFIG FILES:
+  ✅ package.json            → Dependencies list
+  ✅ package-lock.json       → Exact versions (important for reproducibility)
+  ✅ next.config.mjs         → Next.js configuration
+  ✅ tailwind.config.js      → Tailwind configuration
+  ✅ drizzle.config.js       → Drizzle ORM config
+  ✅ jsconfig.json           → JS path aliases
+  ✅ tsconfig.json           → TypeScript config
+  ✅ postcss.config.mjs      → PostCSS config
+  ✅ components.json         → shadcn/ui config
+  ✅ eslint.config.mjs       → ESLint rules
+  ✅ .eslintrc.json          → ESLint config
+  ✅ middleware.js            → Clerk middleware
+  ✅ requirements.txt        → Tech stack overview
+
+DOCUMENTATION (New Files — Add These):
+  ✅ README.md               → Proper README (we just created this)
+  ✅ LICENSE                 → MIT License (we just created this)
+  ✅ CONTRIBUTING.md         → Contribution guide (we just created this)
+  ✅ .env.example            → Env template WITHOUT real keys (we created this)
+  ✅ .gitignore              → Already in project (keep it)
+
+=============================================================
+❌ YEH KABHI UPLOAD MAT KARO (Private / Sensitive)
+=============================================================
+
+  ❌ .env.local              → Real API keys hain — NEVER upload
+  ❌ .env                    → Same — secret keys
+  ❌ node_modules/           → Huge folder, auto-generated (already in .gitignore)
+  ❌ .next/                  → Build cache (already in .gitignore)
+
+APNI RESEARCH / ACADEMIC CONTENT:
+  ❌ Research Paper (unpublished) → Jab tak publish nahi hua, upload mat karo
+                                     (Conference/Journal me submit karna ho to pehle)
+  ❌ Internal Project Report     → College ki report — private rakho
+  ❌ Plagiarism-sensitive docs    → Koi bhi content jo college submit kiya
+
+=============================================================
+⚠️ OPTIONAL — AAPKI MARZI (Add if you want)
+=============================================================
+
+  ⚡ docs/screenshots/      → App ke screenshots (README me dikhenge)
+  ⚡ CHANGELOG.md           → Version history
+  ⚡ .github/ISSUE_TEMPLATE → Issue templates for GitHub
+
+=============================================================
+🔐 SECURITY CHECKLIST — Upload se pehle yeh check karo
+=============================================================
+
+Before pushing to GitHub, run these commands:
+
+1. Check karo koi API key toh nahi gaya accidentally:
+   grep -r "AIza" . --include="*.js" --include="*.jsx" --include="*.ts"
+   grep -r "sk_test" . --include="*.js" --include="*.jsx"
+   grep -r "pk_test" . --include="*.js" --include="*.jsx"
+
+2. .gitignore properly set hai:
+   cat .gitignore | grep ".env"
+   (Output me ".env.local" aur ".env" dikhna chahiye)
+
+3. .env.example me real keys nahi hain:
+   cat .env.example
+   (Sirf placeholder values dikhni chahiye, real keys nahi)
+
+=============================================================
+🚀 GITHUB UPLOAD STEPS
+=============================================================
+
+Step 1: GitHub par new repository banao
+  - Name: intivolution-ai (ya jo bhi rakhna ho)
+  - Description: "AI-Powered Interview Preparation Platform — Final Year Project"
+  - Public rakho (portfolio ke liye)
+  - README, .gitignore, License mat add karo (already hai)
+
+Step 2: Dono ko collaborator banao
+  - Settings → Collaborators → Add your teammate's GitHub username
+
+Step 3: Local se push karo:
+  git init
+  git add .
+  git commit -m "feat: initial project setup — AI interview preparation platform"
+  git branch -M main
+  git remote add origin https://github.com/YOUR_USERNAME/intivolution-ai.git
+  git push -u origin main
+
+Step 4: README me apne names update karo
+  - Authors section me apna aur teammate ka naam + GitHub link daalo
+
+Step 5: Repo settings:
+  - About section me description add karo
+  - Tags/Topics add karo: nextjs, ai, gemini, interview-preparation, final-year-project
+  - Website link add karo (agar deployed hai)
+
+=============================================================
+🎓 RESEARCH PAPER / REPORT REGARDING GITHUB
+=============================================================
+
+Research Paper (Unpublished):
+  → GitHub par BILKUL mat daalo jab tak publish nahi hota
+  → Paper publish hone ke baad DOI link README me add kar sakte ho:
+     "📄 Research Paper: [Paper Title](doi_link)"
+
+Project Report (College submission):
+  → Private rakho — publicly share mat karo
+  → Ek "Abstract" ya "Project Description" README me likh sakte ho
+
+=============================================================
+
+✨ Tip: GitHub repo acha dikhega to recruiters notice karte hain!
+   - Proper README with badges → ✅
+   - Screenshots of the app → ✅
+   - Live demo link (Vercel pe deploy karo, free hai) → ✅
+   - Consistent commit history → ✅
