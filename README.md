@@ -43,7 +43,7 @@ An end-to-end AI interview preparation platform with adaptive questioning, real-
 
 ## 🎯 About the Project
 
-**Intivolution AI** is a final-year B.Tech project built to solve a real problem: most job seekers practice interviews with static question banks and receive zero meaningful feedback. This platform changes that.
+**Multimodel Explainable AI** is a final-year B.Tech project built to solve a real problem: most job seekers practice interviews with static question banks and receive zero meaningful feedback. This platform changes that.
 
 It simulates realistic interview sessions using **Google Gemini AI**, generates role-specific and resume-aware questions, records your spoken answers via the **Web Speech API**, and produces a structured performance report with scoring, strengths, weaknesses, and actionable next steps — all without any human evaluator.
 
@@ -102,7 +102,7 @@ It simulates realistic interview sessions using **Google Gemini AI**, generates 
 ## 📁 Project Structure
 
 ```
-intivolution-ai/
+Multimodel_Explainable-AI/
 ├── app/                        # Next.js App Router
 │   ├── (auth)/                 # Sign in / Sign up pages (Clerk)
 │   ├── about-us/               # About the platform page
@@ -164,8 +164,8 @@ Make sure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/intivolution-ai.git
-   cd intivolution-ai
+   git clone https://github.com/23Amansharma/Multimodel_Explainable-AI.git
+   cd Multimodel_Explainable-AI
    ```
 
 2. **Install dependencies**
