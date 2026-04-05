@@ -2,7 +2,7 @@
 
 <img src="public/logo.svg" alt="Intivolution AI Logo" width="120" />
 
-# Intivolution AI — AI-Powered Interview Preparation Platform
+# Multimodel_Explainable-AI (Intivolution) — AI-Powered Interview Preparation Platform
 
 **Practice smarter. Interview better.**  
 An end-to-end AI interview preparation platform with adaptive questioning, real-time voice analysis, resume intelligence, and detailed performance feedback.
