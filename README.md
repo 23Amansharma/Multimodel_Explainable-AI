@@ -236,7 +236,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📸 Screenshots
 
-> _Add your screenshots here after deployment_
 
 | Dashboard | Live Interview | Feedback Report |
 |---|---|---|
