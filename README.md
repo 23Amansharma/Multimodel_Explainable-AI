@@ -47,7 +47,6 @@ An end-to-end AI interview preparation platform with adaptive questioning, real-
 
 It simulates realistic interview sessions using **Google Gemini AI**, generates role-specific and resume-aware questions, records your spoken answers via the **Web Speech API**, and produces a structured performance report with scoring, strengths, weaknesses, and actionable next steps — all without any human evaluator.
 
-> Built as a Final Year Project (FYP) — the system design, research, UI, AI integration, and database architecture were all developed from scratch by the team.
 
 ---
 
