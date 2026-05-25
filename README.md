@@ -16,8 +16,9 @@ An end-to-end AI interview preparation platform with adaptive questioning, real-
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-[✨ Live Demo](#) · [📄 Report an Issue](../../issues) · [🤝 Contribute](#contributing)
-
+ [📄 Report an Issue](../../issues) · [🤝 Contribute](#contributing)
+## 🌐 Live Demo
+[View Live →](https://xai-interview-preparation.vercel.app)
 </div>
 
 ---
